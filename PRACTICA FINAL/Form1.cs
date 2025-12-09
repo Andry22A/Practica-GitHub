@@ -16,5 +16,20 @@ namespace PRACTICA_FINAL
         {
             InitializeComponent();
         }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            lblNombre.Text = "Andry de la Rosa Salas matrícula LR 2024-01494";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
